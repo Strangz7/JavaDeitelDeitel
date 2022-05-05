@@ -13,10 +13,12 @@ public class Milage {
     }
 
     public void setMiles(int miles) {
+
         this.miles = miles;
     }
 
     public int getMiles() {
+
         return miles;
     }
 
@@ -25,6 +27,7 @@ public class Milage {
     }
 
     public int getGallons() {
+
         return galons;
     }
 
@@ -33,6 +36,7 @@ public class Milage {
 //    }
 
     public int getMilesPerGalons() {
+
         return  milesPerGalons = miles / galons;
     }
 }

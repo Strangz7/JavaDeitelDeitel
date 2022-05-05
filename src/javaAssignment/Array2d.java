@@ -39,9 +39,18 @@ public class Array2d {
 //        }
 //        System.out.println(Arrays.toString(arr));
           int[][] array = {{2, 3, 4, 5},{3, 7, 8, 9}};
+          int total = 0;
         for (int i = 0; i < array.length; i++) {
-
+            int sum = 0;
+            for (int j = 0; j < array[i].length; j++) {
+                System.out.print(array[i][j]+" ");
+                sum += array[i][j];
+                total += array[i][j];
+            }
+            System.out.println();
+            System.out.println(sum);
+//            System.out.println(Arrays.toString(array));
         }
-
+        System.out.println(total);
     }
 }
